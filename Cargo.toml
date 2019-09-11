@@ -1,0 +1,15 @@
+[package]
+name = "bitlits"
+version = "0.1.0"
+authors = ["Justin Faler <chutes@protonmail.com>"]
+description = "Open source cryptocurrency exchange."
+documentation = "https://github.com/bitlits/bitcoin-casino"
+homepage = "https://bitlits.com/contact"
+repository = "https://github.com/bitlits"
+keywords = ["bitcoin", "wallet", "exchange", "cryptocurrency", "blockchain"]
+categories = ["network"]
+
+[dependencies]
+jsonrpc = { git = "https://github.com/dpc/rust-jsonrpc", branch="reorg" }
+bitcoin = "0.20.0"
+bitcoincore-rpc-json = "0.7.0"
